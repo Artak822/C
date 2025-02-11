@@ -2,7 +2,7 @@
 
 int main(){
     int dist;
-    printf("Введите расстояние\n");
+    printf("Введите расстояние: ");
     scanf("%d", &dist);
 
     if (dist > 500) printf("Не доедет\n");
